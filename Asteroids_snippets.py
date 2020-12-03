@@ -1,4 +1,4 @@
-# classes / gameplay loop redacted
+# classes / gameplay loop / some functions redacted
 
 def keydown(key):
     for i in d_press:
@@ -21,7 +21,7 @@ def rock_spawner():
         y_move = random.choice([-2,-1,0,1,2])
     a_rock = Sprite([random.randrange(WIDTH), random.randrange(HEIGHT)], [x_move, y_move], 0, rotate, asteroid_image, asteroid_info)
     pass
-    
+
 # key handlers
 
 d_press = {'left': my_ship.dec_ang_vel,\
