@@ -1,2 +1,2 @@
 # Assorted
-uncategorized (documentation, scripts, project files..)
+uncategorized (documentation, scripts, project files..) sample code
