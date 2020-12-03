@@ -9,18 +9,6 @@ def keyup(key):
     for i in d_release:
         if key == simplegui.KEY_MAP[i]:
             d_release[i]()
-# timer handler that spawns a rock
-def rock_spawner():
-    global a_rock
-    rotate = random.choice([-0.02, 0.02])
-    x_move = random.choice([-2,-1,0,1,2])
-
-    if x_move == 0:
-        y_move = random.choice([-2,-1,1,2])
-    else:
-        y_move = random.choice([-2,-1,0,1,2])
-    a_rock = Sprite([random.randrange(WIDTH), random.randrange(HEIGHT)], [x_move, y_move], 0, rotate, asteroid_image, asteroid_info)
-    pass
 
 # key handlers
 
