@@ -1,2 +1,2 @@
 # Assorted
-snippets of documentation, scripts, project files and sample code
+documentation, scripts, project files and sample code
